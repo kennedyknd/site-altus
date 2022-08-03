@@ -131,6 +131,10 @@ img {
     transition: 0.4s;
 }
 
+.fonteCinzel {
+    font-family: 'Cinzel', serif;
+  }
+
 .bg-img {
     background-size: cover;
     background-position: center;
