@@ -24,6 +24,7 @@ Table of content
 21. modal
 22. sidebar
 23. footer
+24. parallax
 -------------------------------------------------------------------*/
 /*------ Typography Style Start ------*/
 body {
@@ -1180,6 +1181,7 @@ fieldset legend {
     text-transform: uppercase;
     border-radius: 5px;
     font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 
 .main-menu ul li a i {

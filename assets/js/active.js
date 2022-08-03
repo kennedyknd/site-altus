@@ -82,6 +82,36 @@
     });
 
 	/*------ Top seller carousel active start ------*/
+	$('.product-carousel--5').slick({
+		autoplay: false,
+		fade: false,
+		speed: 1000,
+		slidesToShow: 5,
+		adaptiveHeight: true,
+		prevArrow: '<button type="button" class="slick-prev"><i class="lnr lnr-chevron-left"></i></button>',
+		nextArrow: '<button type="button" class="slick-next"><i class="lnr lnr-chevron-right"></i></button>',
+		responsive: [{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 4
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 3
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 2
+			}
+		}]
+	});
+	/*------ Top seller carousel active end ------*/
+
+	/*------ Top seller carousel active start ------*/
 	$('.product-carousel--4').slick({
 		autoplay: false,
 		fade: false,
@@ -395,6 +425,5 @@
 			}
 		]
 	})
-
 
 }(jQuery));
